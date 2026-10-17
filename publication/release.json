@@ -4,7 +4,7 @@
   "sha256": "b75487cff68ecafbf177c2ebad0b0941d4cffa8901d3dfe2eb38bc309485ef21",
   "notes": "Mises à jour : grand cadre centré avec le logiciel visible en arrière-plan.\nAnimation pendant le téléchargement, la vérification et l’installation.\nLes fichiers temporaires et la sauvegarde de l’ancienne version sont supprimés après confirmation du bon démarrage.\nRestauration automatique si la nouvelle version ne démarre pas.\nNettoyage de la sauvegarde laissée par les versions précédentes, après ouverture réussie.\nBibliothèque, favoris, réglages et connexion Google conservés.\nAccueil : retour à la présentation d’origine du jeu recommandé, avec conservation de la correction d’affichage.",
   "parts": 21,
-  "validation_revision": 2,
+  "validation_revision": 3,
   "base_sha256": "d36f87f78152efe1b9c8b1ba3ad7f5f6431c2787f473ef963c35b5de659236e9",
   "patch_parts": 9
 }
