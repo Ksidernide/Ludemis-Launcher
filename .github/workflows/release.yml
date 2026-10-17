@@ -1,0 +1,47 @@
+name: Publier Ludemis
+on:
+  push:
+    branches: [main]
+    paths: ['publication/release.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ludemis-publication
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Récupérer et vérifier les fichiers de cette publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location "https://raw.githubusercontent.com/$GH_REPO/$GITHUB_SHA/publication/release.json" -o release.json
+          curl --fail --silent --show-error --location "https://raw.githubusercontent.com/$GH_REPO/$GITHUB_SHA/publication/Ludemis.exe" -o Ludemis.exe
+          python3 - <<'PY'
+          import hashlib, json, pathlib, re
+          config = json.loads(pathlib.Path('release.json').read_text())
+          version = config['version']
+          assert re.fullmatch(r'[0-9]{1,6}\.[0-9]{1,6}(?:\.[0-9]{1,6})?', version)
+          data = pathlib.Path('Ludemis.exe').read_bytes()
+          assert data[:2] == b'MZ' and len(data) == config['size']
+          assert hashlib.sha256(data).hexdigest() == config['sha256']
+          pathlib.Path('Ludemis.exe').rename('Ludemis-' + version + '.exe')
+          pathlib.Path('version.txt').write_text(version)
+          pathlib.Path('notes.txt').write_text(config['notes'])
+          pathlib.Path('SHA256SUMS.txt').write_text(config['sha256'] + '  Ludemis-' + version + '.exe\n')
+          PY
+      - name: Publier après téléversement complet
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="$(cat version.txt)"
+          tag="v$version"
+          gh release create "$tag" --repo "$GH_REPO" --target "$GITHUB_SHA" --title "Ludemis $version" --notes-file notes.txt --draft
+          gh release upload "$tag" "Ludemis-$version.exe" SHA256SUMS.txt --repo "$GH_REPO"
+          gh release edit "$tag" --repo "$GH_REPO" --draft=false --latest
