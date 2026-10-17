@@ -1,10 +1,10 @@
 {
   "version": "1.14",
-  "size": 25565184,
-  "sha256": "99e7d12c52195b9a38a9cb445c0cde5bdfb62054c27543af5252de996a06e5da",
+  "size": 25565696,
+  "sha256": "042570f43a349394ab294e1a9014743b210a0bd087eb4b9429f07e4b0c0b0b4a",
   "notes": "Accueil : trois jeux du catalogue à découvrir, hors bibliothèque et sans doublons.\nPrésentation d’origine du jeu mis en avant conservée.\nMises à jour : grand cadre centré et animation pendant le téléchargement et l’installation.\nRemplacement du programme au même emplacement, vérification SHA-256 et nettoyage après confirmation du démarrage.\nRestauration automatique en cas d’échec.\nBibliothèque, favoris, réglages, cache et connexion Google conservés.",
   "parts": 21,
-  "validation_revision": 1,
+  "validation_revision": 2,
   "base_sha256": "d36f87f78152efe1b9c8b1ba3ad7f5f6431c2787f473ef963c35b5de659236e9",
   "patch_parts": 9
 }
