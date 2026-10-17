@@ -1,4 +1,4 @@
-package launchcheck
+package main
 
 import (
  "os"
@@ -18,6 +18,7 @@ func TestPowerShellLaunch(t *testing.T) {
    ps:=filepath.Join(os.Getenv("SystemRoot"),"System32","WindowsPowerShell","v1.0","powershell.exe")
    cmd:=exec.Command(ps,"-NoProfile","-STA","-NonInteractive","-ExecutionPolicy","Bypass","-WindowStyle","Hidden","-File",script)
    cmd.SysProcAttr=&syscall.SysProcAttr{HideWindow:true,CreationFlags:tc.flags}
+   if tc.name=="no_console" { cmd=newUpdateInstallerCommand(script) }
    var out []byte
    var err error
    if strings.HasSuffix(tc.name,"_pipes"){out,err=cmd.CombinedOutput()}else{err=cmd.Run()}
