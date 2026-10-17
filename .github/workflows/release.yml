@@ -35,6 +35,7 @@ jobs:
           npm install --no-save playwright@1.62.1
           npx playwright install chromium
           node test-ui.cjs
+          node test-home.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:

@@ -1,10 +1,10 @@
 {
-  "version": "1.11",
-  "size": 25537536,
-  "sha256": "e91d4db128a136b02d98822381f6ddc3b7f0d3c82b90dd1edcbfb4d26865fa8c",
-  "notes": "Mises à jour automatiques et vérification manuelle dans les paramètres.\nTéléchargement vérifié par SHA-256, installation au redémarrage avec copie de secours.\nBibliothèque, favoris, réglages, cache et connexion Google conservés.\nRedémarrage bloqué pendant un jeu ou un téléchargement actif.\nLa version 1.10 doit être remplacée manuellement une première fois.",
+  "version": "1.12",
+  "size": 25532416,
+  "sha256": "75e880df77f933b09f4f7ff8c035b9f2e2b554e5e597a662733ff30f376603a2",
+  "notes": "Accueil : retour du jeu mis en avant avec le bandeau « En tendance · Dans ton catalogue ».\nSélection selon les avis Steam disponibles, puis la note du catalogue.\nLe titre et les boutons restent affichés même si le logo ou la grande image ne sont pas encore en cache.\nChargement des informations du jeu en arrière-plan et images de secours.\nBibliothèque, favoris, réglages et connexion Google conservés.",
   "parts": 21,
-  "validation_revision": 6,
+  "validation_revision": 1,
   "base_sha256": "d36f87f78152efe1b9c8b1ba3ad7f5f6431c2787f473ef963c35b5de659236e9",
-  "patch_parts": 2
+  "patch_parts": 6
 }
