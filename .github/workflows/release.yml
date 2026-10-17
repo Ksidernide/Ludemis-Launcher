@@ -18,14 +18,8 @@ jobs:
       - name: Assembler et vérifier l'exécutable
         shell: python
         run: |
-          import gzip, hashlib, json, pathlib, zipfile
-          config = json.loads(pathlib.Path('publication/release.json').read_text(encoding='utf-8'))
-          parts = sorted(pathlib.Path('publication').glob('Ludemis.exe.gz.part*'))
-          assert len(parts) == config['parts']
-          data = gzip.decompress(b''.join(p.read_bytes() for p in parts))
-          assert data[:2] == b'MZ' and len(data) == config['size']
-          assert hashlib.sha256(data).hexdigest() == config['sha256']
-          pathlib.Path('Ludemis.exe').write_bytes(data)
+          import runpy, zipfile
+          runpy.run_path('publication/assemble.py')
           zipfile.ZipFile('publication/validation.zip').extractall('validation')
       - name: Tester le remplacement et la relance sous Windows
         shell: powershell
@@ -58,21 +52,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
-          import gzip, hashlib, json, pathlib, re
-          config = json.loads(pathlib.Path('publication/release.json').read_text())
-          version = config['version']
-          assert re.fullmatch(r'[0-9]{1,6}\.[0-9]{1,6}(?:\.[0-9]{1,6})?', version)
-          parts = sorted(pathlib.Path('publication').glob('Ludemis.exe.gz.part*'))
-          assert len(parts) == config['parts']
-          data = gzip.decompress(b''.join(p.read_bytes() for p in parts))
-          assert data[:2] == b'MZ' and len(data) == config['size']
-          assert hashlib.sha256(data).hexdigest() == config['sha256']
-          pathlib.Path('Ludemis-' + version + '.exe').write_bytes(data)
-          pathlib.Path('version.txt').write_text(version)
-          pathlib.Path('notes.txt').write_text(config['notes'])
-          pathlib.Path('SHA256SUMS.txt').write_text(config['sha256'] + '  Ludemis-' + version + '.exe\n')
-          PY
+          python3 publication/assemble.py
       - name: Publier après téléversement et vérification du digest GitHub
         shell: bash
         run: |
