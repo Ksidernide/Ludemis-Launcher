@@ -66,7 +66,9 @@ jobs:
             gh release create "$tag" --repo "$GH_REPO" --target "$GITHUB_SHA" --title "Ludemis $version" --notes-file notes.txt --draft
           fi
           gh release upload "$tag" "Ludemis-$version.exe" SHA256SUMS.txt --repo "$GH_REPO" --clobber
-          gh api "repos/$GH_REPO/releases/tags/$tag" > uploaded.json
+          gh api "repos/$GH_REPO/releases" > release-list.json
+          python3 -c 'import json; config=json.load(open("publication/release.json")); print(next(r["id"] for r in json.load(open("release-list.json")) if r["tag_name"]=="v"+config["version"] and r["draft"]))' > release-id.txt
+          gh api "repos/$GH_REPO/releases/$(cat release-id.txt)" > uploaded.json
           python3 - <<'PY'
           import json
           config=json.load(open('publication/release.json'))
