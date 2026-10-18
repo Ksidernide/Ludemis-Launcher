@@ -1,8 +1,8 @@
 {
-  "version": "1.18",
-  "size": 25585152,
-  "sha256": "90cfc176051f6bf200e0f74c007680cb21e30bda5646755e28f831d94564df0f",
-  "notes": "Catalogue strict : seules les fiches avec une image lisible en cache et une référence de jeu ou un vrai lien de téléchargement sont affichées.\nLes fiches sans image restent préparées en arrière-plan et apparaissent lorsque leur image est prête.\nLe même filtre s’applique à la recherche et aux suggestions.\nExclusion des QR codes, captures de navigateur, liens Previous Image et pages de pièces jointes.\nVersion affichée automatiquement synchronisée avec le logiciel.\nBibliothèque, favoris, réglages et connexion Google conservés.",
+  "version": "1.19",
+  "size": 25586176,
+  "sha256": "48d4338720c3040e074f0cd6941c079acd2567de4d5237ad54aecddf252aa77b",
+  "notes": "Correction du clignotement des bandes-annonces : le lecteur reste en place pendant les actualisations de la fiche, sans redémarrer la vidéo. Conservation des filtres stricts du catalogue et des données personnelles.",
   "parts": 21,
   "validation_revision": 1,
   "base_sha256": "d36f87f78152efe1b9c8b1ba3ad7f5f6431c2787f473ef963c35b5de659236e9",
