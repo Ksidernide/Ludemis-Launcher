@@ -1,3 +1,5 @@
-![image alt](https://github.com/Ksidernide/Ludemis-releases/blob/main/icon.png?raw=true)
-# Ludemis-releases
-Ludemis est un launcher de jeux Windows développé en Go et Wails. Il permet de gérer sa bibliothèque de jeux, découvrir de nouveaux titres, suivre les mises à jour et synchroniser ses sauvegardes avec Google Drive.
+<div align="center">
+
+[<img src="https://raw.githubusercontent.com/hydralauncher/hydra/refs/heads/main/resources/icon.png" width="122"/>]
+
+  <h1 align="center">Hydra Launcher</h1>
