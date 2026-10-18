@@ -1,10 +1,10 @@
 {
-  "version": "1.14",
-  "size": 25565696,
-  "sha256": "042570f43a349394ab294e1a9014743b210a0bd087eb4b9429f07e4b0c0b0b4a",
-  "notes": "Accueil : trois jeux du catalogue à découvrir, hors bibliothèque et sans doublons.\nPrésentation d’origine du jeu mis en avant conservée.\nMises à jour : grand cadre centré et animation pendant le téléchargement et l’installation.\nRemplacement du programme au même emplacement, vérification SHA-256 et nettoyage après confirmation du démarrage.\nRestauration automatique en cas d’échec.\nBibliothèque, favoris, réglages, cache et connexion Google conservés.",
+  "version": "1.16",
+  "size": 25568768,
+  "sha256": "7f35f2b1e080762bd9ec3e1ae376fc6800f2b4fe48ba41ac3917bc5900316b26",
+  "notes": "Catalogue : suppression des fausses fiches d’archives mensuelles (June 2017, May 2024…), y compris dans les résultats déjà en cache.\nLes vrais titres contenant un mois sont conservés.\nAccueil : trois jeux du catalogue à découvrir, hors bibliothèque et sans doublons.\nMises à jour : grand cadre centré et animation d’installation.\nCorrection du lancement PowerShell depuis Go pour permettre le redémarrage et le remplacement.\nVérification SHA-256, nettoyage après démarrage confirmé et restauration en cas d’échec.\nBibliothèque, favoris, réglages, cache et connexion Google conservés.\nLes versions 1.13 et 1.14 nécessitent un remplacement manuel initial de l’exécutable pour corriger leur lanceur de mise à jour.",
   "parts": 21,
-  "validation_revision": 2,
+  "validation_revision": 1,
   "base_sha256": "d36f87f78152efe1b9c8b1ba3ad7f5f6431c2787f473ef963c35b5de659236e9",
   "patch_parts": 9
 }

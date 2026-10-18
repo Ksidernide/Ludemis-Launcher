@@ -21,6 +21,19 @@ jobs:
           import runpy, zipfile
           runpy.run_path('publication/assemble.py')
           zipfile.ZipFile('publication/validation.zip').extractall('validation')
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.7'
+          cache: false
+      - name: Tester et compiler le vrai lanceur Go
+        shell: powershell
+        env:
+          GO111MODULE: 'off'
+        run: |
+          go test -v ./publication/launch-check
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          go build -o validation/installer-launcher.exe ./publication/launch-check
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Tester le remplacement et la relance sous Windows
         shell: powershell
         working-directory: validation
