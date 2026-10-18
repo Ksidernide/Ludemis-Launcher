@@ -18,9 +18,11 @@ jobs:
       - name: Assembler et vérifier l'exécutable
         shell: python
         run: |
-          import runpy, zipfile
+          import runpy, zipfile, shutil
           runpy.run_path('publication/assemble.py')
           zipfile.ZipFile('publication/validation.zip').extractall('validation')
+          shutil.copyfile('publication/catalog-visibility/app.js','validation/app.js')
+          shutil.copyfile('publication/catalog-visibility/test-home.cjs','validation/test-home.cjs')
       - uses: actions/setup-go@v5
         with:
           go-version: '1.24.7'

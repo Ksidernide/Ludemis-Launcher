@@ -1,8 +1,8 @@
 {
-  "version": "1.17",
-  "size": 25570816,
-  "sha256": "f00880f47598fc02e32640f48d9e3d104cc50d992ddfbb424c12d6c31efbaa8e",
-  "notes": "Catalogue : exclusion des bulletins Updates Digest, Update Digest, Updates Roundup et leurs variantes, y compris dans les résultats déjà enregistrés.\nVersion affichée dans la barre latérale et les paramètres reliée au numéro réel du logiciel.\nNuméro et références des fichiers de l’interface actualisés automatiquement à chaque compilation.\nLes correctifs précédents sont conservés : archives mensuelles, suggestions de jeux et installation des mises à jour sans console.\nBibliothèque, favoris, réglages et connexion Google conservés.",
+  "version": "1.18",
+  "size": 25585152,
+  "sha256": "90cfc176051f6bf200e0f74c007680cb21e30bda5646755e28f831d94564df0f",
+  "notes": "Catalogue strict : seules les fiches avec une image lisible en cache et une référence de jeu ou un vrai lien de téléchargement sont affichées.\nLes fiches sans image restent préparées en arrière-plan et apparaissent lorsque leur image est prête.\nLe même filtre s’applique à la recherche et aux suggestions.\nExclusion des QR codes, captures de navigateur, liens Previous Image et pages de pièces jointes.\nVersion affichée automatiquement synchronisée avec le logiciel.\nBibliothèque, favoris, réglages et connexion Google conservés.",
   "parts": 21,
   "validation_revision": 1,
   "base_sha256": "d36f87f78152efe1b9c8b1ba3ad7f5f6431c2787f473ef963c35b5de659236e9",
