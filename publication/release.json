@@ -1,8 +1,8 @@
 {
-  "version": "1.16",
-  "size": 25568768,
-  "sha256": "7f35f2b1e080762bd9ec3e1ae376fc6800f2b4fe48ba41ac3917bc5900316b26",
-  "notes": "Catalogue : suppression des fausses fiches d’archives mensuelles (June 2017, May 2024…), y compris dans les résultats déjà en cache.\nLes vrais titres contenant un mois sont conservés.\nAccueil : trois jeux du catalogue à découvrir, hors bibliothèque et sans doublons.\nMises à jour : grand cadre centré et animation d’installation.\nCorrection du lancement PowerShell depuis Go pour permettre le redémarrage et le remplacement.\nVérification SHA-256, nettoyage après démarrage confirmé et restauration en cas d’échec.\nBibliothèque, favoris, réglages, cache et connexion Google conservés.\nLes versions 1.13 et 1.14 nécessitent un remplacement manuel initial de l’exécutable pour corriger leur lanceur de mise à jour.",
+  "version": "1.17",
+  "size": 25570816,
+  "sha256": "f00880f47598fc02e32640f48d9e3d104cc50d992ddfbb424c12d6c31efbaa8e",
+  "notes": "Catalogue : exclusion des bulletins Updates Digest, Update Digest, Updates Roundup et leurs variantes, y compris dans les résultats déjà enregistrés.\nVersion affichée dans la barre latérale et les paramètres reliée au numéro réel du logiciel.\nNuméro et références des fichiers de l’interface actualisés automatiquement à chaque compilation.\nLes correctifs précédents sont conservés : archives mensuelles, suggestions de jeux et installation des mises à jour sans console.\nBibliothèque, favoris, réglages et connexion Google conservés.",
   "parts": 21,
   "validation_revision": 1,
   "base_sha256": "d36f87f78152efe1b9c8b1ba3ad7f5f6431c2787f473ef963c35b5de659236e9",
