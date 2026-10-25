@@ -1,9 +1,13 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Ksidernide/Ludemis-releases/main/icon.png" width="144" alt="Logo Ludemis">
-
-<h1>Ludemis</h1>
-
+<h1>Ludemis Launcher</h1>
+<img src="https://www.flaticon.com/fr/icone-gratuite/attention_4201973"width="144">
+<p align="center">
+  <strong>VERSION BÊTA</strong><br>
+  Le logiciel est en cours de développement. Certaines fonctionnalités peuvent être incomplètes ou présenter des bugs.
+</p>
+<hr>
 <p>
   Un launcher Windows pour organiser tes jeux, personnaliser ta bibliothèque
   et suivre ta progression.
