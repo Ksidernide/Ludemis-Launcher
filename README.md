@@ -29,7 +29,7 @@ Windows 10 / 11 · 64 bits
 
 ## Les plus de Ludemis
 
-- **Client torrent intégré** : télécharge depuis un lien magnet ou un fichier `.torrent`, avec pause, reprise et suivi des téléchargements.
+- **Client torrent intégré** : télécharge un jeu depuis un lien magnet ou un fichier `.torrent`, avec pause, reprise et suivi des téléchargements.
 - **Catalogue personnalisable** : ajoute tes propres sources, notamment au format JSON, et filtre les jeux par année, genre ou source.
 - **Versions regroupées** : retrouve les différentes éditions et sources de téléchargement dans une seule fiche.
 - **Recommandations personnalisées** : découvre des jeux recommandés selon ta bibliothèque.
@@ -40,7 +40,7 @@ Windows 10 / 11 · 64 bits
 
 ## Google Drive
 
-La connexion au cloud est temporairement indisponible.
+La connexion au cloud est temporairement <strong>indisponible</strong>.
 
 Le cloud utilise ton propre compte Google Drive pour synchroniser ta bibliothèque,
 tes favoris, ton temps de jeu et tes succès entre plusieurs PC.
