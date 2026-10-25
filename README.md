@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Ksidernide/Ludemis-releases/main/icon.png" width="144" alt="Logo Ludemis">
 <h1>Ludemis Launcher</h1>
-<img src="https://cdn-icons-png.flaticon.com/512/3756/3756712.png"width="144">
+<img src="https://cdn-icons-png.flaticon.com/512/3756/3756712.png" width="144" alt="">
 <p align="center">
   <strong>VERSION BÊTA</strong><br>
   Le logiciel est en cours de développement. Certaines fonctionnalités peuvent être incomplètes ou présenter des bugs.
