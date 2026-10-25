@@ -38,8 +38,6 @@ Windows 10 / 11 · 64 bits
 - **Détection des jeux lancés hors du launcher** : suis leur activité même lorsque tu les ouvres autrement.
 - **Enrichissement automatique des fiches** : récupère les informations et les images disponibles via Steam, IGDB et SteamGridDB.
 
-La connexion Google Drive est temporairement indisponible dans la version 1.41.
-
 ## Google Drive
 
 La connexion au cloud est temporairement indisponible.
