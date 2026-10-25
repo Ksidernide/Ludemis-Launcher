@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Ksidernide/Ludemis-releases/main/icon.png" width="144" alt="Logo Ludemis">
 <h1>Ludemis Launcher</h1>
-<img src="https://www.flaticon.com/fr/icone-gratuite/attention_4201973"width="144">
+<img src="https://cdn-icons-png.flaticon.com/512/3756/3756712.png"width="144">
 <p align="center">
   <strong>VERSION BÊTA</strong><br>
   Le logiciel est en cours de développement. Certaines fonctionnalités peuvent être incomplètes ou présenter des bugs.
@@ -42,21 +42,15 @@ La connexion Google Drive est temporairement indisponible dans la version 1.41.
 
 ## Google Drive
 
-La connexion au cloud est temporairement indisponible dans la version 1.41.
+La connexion au cloud est temporairement indisponible.
 
-Le cloud utilise ton propre Google Drive pour synchroniser ta bibliothèque,
+Le cloud utilise ton propre compte Google Drive pour synchroniser ta bibliothèque,
 tes favoris, ton temps de jeu et tes succès entre plusieurs PC.
-Il permet aussi de conserver les sauvegardes des jeux configurés.
+Il permet aussi de conserver les sauvegardes des jeux configurés. 
 
-La connexion est facultative. Les jeux eux-mêmes ne sont pas envoyés sur Drive.
+La connexion est facultative. Les jeux eux-mêmes ne sont pas envoyés sur Drive. 
 
 ## Téléchargement
 
 Retrouve les fichiers et les instructions sur la
 [page des versions](https://github.com/Ksidernide/Ludemis-releases/releases).
-
-## Assistance
-
-Pour signaler un problème, ouvre un
-[signalement](https://github.com/Ksidernide/Ludemis-releases/issues)
-avec ta version de Ludemis et une description du problème.
