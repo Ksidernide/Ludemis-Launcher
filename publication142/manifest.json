@@ -1,0 +1,30 @@
+{
+  "version": "1.42",
+  "name": "Ludemis-1.42.exe",
+  "size": 26863104,
+  "sha256": "bd3f91154bebd846b3676d52c2f1d508c3142ab9a48b56e655dcd00a37a9761f",
+  "parts": [
+    "publication142/application.part000",
+    "publication142/application.part001",
+    "publication142/application.part002",
+    "publication142/application.part003",
+    "publication142/application.part004",
+    "publication142/application.part005",
+    "publication142/application.part006",
+    "publication142/application.part007",
+    "publication142/application.part008",
+    "publication142/application.part009",
+    "publication142/application.part010",
+    "publication142/application.part011",
+    "publication142/application.part012",
+    "publication142/application.part013",
+    "publication142/application.part014",
+    "publication142/application.part015",
+    "publication142/application.part016",
+    "publication142/application.part017",
+    "publication142/application.part018",
+    "publication142/application.part019",
+    "publication142/application.part020",
+    "publication142/application.part021"
+  ]
+}
