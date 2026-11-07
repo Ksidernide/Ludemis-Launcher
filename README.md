@@ -52,3 +52,12 @@ La connexion est facultative. Les jeux eux-mêmes ne sont pas envoyés sur Drive
 
 Retrouve les fichiers et les instructions sur la
 [page des versions](https://github.com/Ksidernide/Ludemis-releases/releases).
+
+## Captures d'écrans :
+
+<p>Image du catalogue :</p>
+
+<img src="Capture d'écran 2026-11-01 142447.png" width="800" alt="">
+
+<p>Image de l'accueil : </p>
+<img src="Capture d'écran 2026-11-01 142447.png" width="800" alt="">
