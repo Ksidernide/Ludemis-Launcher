@@ -60,4 +60,5 @@ Retrouve les fichiers et les instructions sur la
 <img src="Capture d'écran 2026-11-01 142447.png" width="800" alt="">
 
 <p>Image de l'accueil : </p>
-<img src="Capture d'écran 2026-11-01 142447.png" width="800" alt="">
+
+<img src="Capture d'écran 2026-11-01 142519.png" width="800" alt="">
