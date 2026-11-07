@@ -1,148 +1,134 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ksidernide/Ludemis-releases/main/icon.png" width="130" alt="Logo Ludemis">
+<img src="https://raw.githubusercontent.com/Ksidernide/Ludemis-releases/main/icon.png" width="130" alt="Ludemis Logo">
 
-# LUDEMIS LAUNCHER
+<h1>LUDEMIS LAUNCHER</h1>
 
-### Tous tes jeux. Une seule bibliothèque.
+### [DOWNLOAD](https://github.com/Ksidernide/Ludemis-releases/releases/latest)
 
-Organise tes jeux, personnalise ton expérience et retrouve tout ton univers gaming au même endroit.
-
-<p>
-  <img src="https://img.shields.io/badge/Version-BÊTA-orange?style=for-the-badge" alt="Version bêta">
-  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows" alt="Windows 10 et 11">
-  <img src="https://img.shields.io/badge/Architecture-64%20bits-333333?style=for-the-badge" alt="64 bits">
-</p>
-
-### [⬇️ TÉLÉCHARGER LUDEMIS](https://github.com/Ksidernide/Ludemis-releases/releases/latest)
-
-**Gratuit · Windows 10 / 11 · 64 bits**
+**Free · Windows 10 / 11 · 64-bit**
 
 </div>
 
 > [!IMPORTANT]
-> **Ludemis est actuellement en version BÊTA.**
-> Le logiciel est encore en développement. Certaines fonctionnalités peuvent être incomplètes ou présenter des bugs.
+> **Ludemis is currently in BETA.**
+> The software is still under development. Some features may be incomplete or contain bugs.
 
 ---
 
-# 📸 Découvrez Ludemis en images
+# Discover Ludemis
 
-Explore les différentes interfaces du launcher.
+Explore the different interfaces of the launcher.
 
-### 🏠 01 — Accueil
+### 01 — Home
 
 <div align="center">
 
-**Ton espace de jeu, entièrement à ta façon.**
-
-Accède rapidement à ta bibliothèque, tes favoris et tes jeux.
-
-<a href="https://github.com/user-attachments/assets/c972b9c5-38e0-4bc5-aeb1-a64886324287">
-  <img src="https://github.com/user-attachments/assets/c972b9c5-38e0-4bc5-aeb1-a64886324287" width="950" alt="Écran d'accueil de Ludemis Launcher">
+  <a href="https://github.com/user-attachments/assets/c972b9c5-38e0-4bc5-aeb1-a64886324287">
+  <img src="https://github.com/user-attachments/assets/c972b9c5-38e0-4bc5-aeb1-a64886324287" width="950" alt="Ludemis Launcher Home Screen">
 </a>
 
-<sub>Cliquer sur l'image pour l'agrandir</sub>
+<sub>Click on the image to enlarge</sub>
 
 </div>
 
 ---
 
-### 🎮 02 — Le catalogue
+### 02 — The Catalog
 
 <div align="center">
 
-**Explore, recherche et découvre tes prochains jeux.**
+**Explore, search, and discover your next games.**
 
-Parcours un catalogue personnalisable, filtre les résultats et consulte les différentes sources disponibles.
+Browse a customizable catalog, filter results, and view the different available sources.
 
 <a href="./Capture%20d%27%C3%A9cran%202026-11-01%20142447.png">
-  <img src="./Capture%20d%27%C3%A9cran%202026-11-01%20142447.png" width="950" alt="Catalogue de jeux Ludemis">
+  <img src="./Capture%20d%27%C3%A9cran%202026-11-01%20142447.png" width="950" alt="Ludemis Game Catalog">
 </a>
 
-<sub>Cliquer sur l'image pour l'agrandir</sub>
+<sub>Click on the image to enlarge</sub>
 
 </div>
 
 ---
 
-### 📚 03 — Ta bibliothèque
+### 03 — Your Library
 
 <div align="center">
 
-**Chaque jeu possède sa propre fiche.**
+**Every game has its own dedicated page.**
 
-Retrouve les informations, les visuels et le suivi de tes jeux au sein d'une interface dédiée.
+Find information, visuals, and activity tracking for your games within a dedicated interface.
 
 <a href="./Capture%20d%27%C3%A9cran%202026-11-07%20103917.png">
-  <img src="./Capture%20d%27%C3%A9cran%202026-11-07%20103917.png" width="950" alt="Fiche d'un jeu dans la bibliothèque Ludemis">
+  <img src="./Capture%20d%27%C3%A9cran%202026-11-07%20103917.png" width="950" alt="Game Page in the Ludemis Library">
 </a>
 
-<sub>Cliquer sur l'image pour l'agrandir</sub>
+<sub>Click on the image to enlarge</sub>
 
 </div>
 
 ---
 
-# ✨ Les fonctionnalités
+#  Features
 
-### 🎯 L'essentiel
+### The Essentials
 
-- **Bibliothèque centralisée** — Réunis tes jeux installés au même endroit.
-- **Lancement rapide** — Lance et ferme tes jeux directement depuis Ludemis.
-- **Favoris** — Retrouve facilement tes jeux préférés.
-- **Temps de jeu** — Consulte ton activité et ta progression.
-- **Recherche de jeux** — Recherche un titre et retrouve sa jaquette.
-- **Fiches détaillées** — Consulte descriptions, bandes-annonces et informations.
+- **Centralized Library** — Bring all your installed games together in one place.
+- **Quick Launch** — Launch and close your games directly from Ludemis.
+- **Favorites** — Easily find your favorite games.
+- **Playtime** — Track your gaming activity and progress.
+- **Game Search** — Search for a game by title and find its cover art.
+- **Detailed Game Pages** — View descriptions, trailers, and game information.
 
-### 🚀 Pour aller plus loin
+### Going Further
 
-| Fonctionnalité | Description |
+| Feature | Description |
 |:---|:---|
-| 📥 **Client torrent** | Téléchargements via liens magnet et fichiers `.torrent`, avec pause, reprise et suivi. |
-| 🗂️ **Catalogue personnalisable** | Ajoute tes sources JSON et filtre par année, genre ou source. |
-| 🎮 **Versions regroupées** | Consulte différentes éditions et sources depuis une seule fiche. |
-| 💡 **Recommandations** | Découvre des jeux proposés selon ta bibliothèque. |
-| 🎨 **Personnalisation** | Modifie thèmes, couleurs, formes et visuels. |
-| 🏆 **Succès** | Intégration des succès compatibles avec Achievement Watcher et notifications de déblocage. |
-| 🔎 **Détection automatique** | Suivi de l'activité des jeux lancés en dehors de Ludemis. |
-| 🌐 **Enrichissement des fiches** | Informations et images via Steam, IGDB et SteamGridDB. |
+| **Torrent Client** | Download via magnet links and `.torrent` files, with pause, resume, and download tracking. |
+| **Customizable Catalog** | Add your own JSON sources and filter by year, genre, or source. |
+| **Grouped Versions** | View different editions and download sources from a single game page. |
+| **Recommendations** | Discover games suggested based on your library. |
+| **Customization** | Change themes, colors, shapes, and game visuals. |
+| **Achievements** | Integration with compatible achievements through Achievement Watcher, including unlock notifications. |
+| **Automatic Detection** | Track activity for games launched outside Ludemis. |
+| **Game Data Enrichment** | Retrieve information and images from Steam, IGDB, and SteamGridDB. |
 
 ---
 
-# ☁️ Synchronisation Google Drive
+# ☁️ Google Drive Synchronization
 
 > [!WARNING]
-> **Fonctionnalité temporairement indisponible.**
-> La connexion au cloud est désactivée pour le moment.
+> **Feature temporarily unavailable.**
+> Cloud connectivity is currently disabled.
 
-La synchronisation utilise ton **propre compte Google Drive** pour retrouver tes informations sur plusieurs ordinateurs.
+Synchronization uses your **own Google Drive account** to access your information across multiple computers.
 
-Elle est conçue pour synchroniser :
+It is designed to synchronize:
 
-- Ta bibliothèque et tes favoris.
-- Ton temps de jeu.
-- Tes succès.
-- Les sauvegardes des jeux configurés.
+- Your library and favorites.
+- Your playtime.
+- Your achievements.
+- Save files for configured games.
 
-**La connexion reste facultative.** Les fichiers des jeux eux-mêmes ne sont pas envoyés sur Google Drive.
+**Connecting is optional.** The game files themselves are not uploaded to Google Drive.
 
 ---
 
-# 📦 Télécharger et installer
+# 📦 Download and Install
 
 <div align="center">
 
-### Prêt à découvrir Ludemis ?
+### Ready to Discover Ludemis?
 
-Retrouve la dernière version disponible et les instructions d'installation.
+Find the latest available version and installation instructions.
 
-### [⬇️ Télécharger la dernière version](https://github.com/Ksidernide/Ludemis-releases/releases/latest)
+### [⬇️ Download the Latest Version](https://github.com/Ksidernide/Ludemis-releases/releases/latest)
 
-[Consulter toutes les versions](https://github.com/Ksidernide/Ludemis-releases/releases)
+[View All Releases](https://github.com/Ksidernide/Ludemis-releases/releases)
 
-**Compatible Windows 10 et Windows 11 — 64 bits**
+**Compatible with Windows 10 and Windows 11 — 64-bit**
 
 </div>
 
@@ -153,9 +139,3 @@ Retrouve la dernière version disponible et les instructions d'installation.
 <img src="https://raw.githubusercontent.com/Ksidernide/Ludemis-releases/main/icon.png" width="55" alt="Ludemis">
 
 **LUDEMIS LAUNCHER**
-
-*Ta bibliothèque. Tes jeux. Ton univers.*
-
-Développé pour les joueurs.
-
-</div>
